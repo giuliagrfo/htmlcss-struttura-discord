@@ -31,14 +31,23 @@ header {
     background-color: orange;
 }
 
+.debug .banner{
+    background-color: darkblue;
+}
+
 .debug .blue {
     background-color: aqua;
     height: 250px;
     width: 400px;
+    
 }
 
 .debug .pink {
     background-color: pink;
+}
+
+.debug .grey {
+    background-color: lightgrey;
 }
 /* DEBUG */
 
@@ -85,7 +94,14 @@ header {
     text-align: right;
 }
 
-.banner{
+.banner {
     padding: 2rem;
-    background-color: darkblue;
+}
+
+.block {
+    padding: 2rem;
+}
+
+.description {
+    justify-content: center;
 }
