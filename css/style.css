@@ -10,11 +10,11 @@
     margin: auto;
 }
 
-header {
-    padding: 1rem;
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
-
-/* DEBUG */
+/* #region DEBUG  */
 .debug header{
     background-color: lightblue;
     height: 70px;
@@ -49,19 +49,9 @@ header {
 .debug .grey {
     background-color: lightgrey;
 }
-/* DEBUG */
+/* #endregion DEBUG */
 
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-[class^="col"] {
-    padding: 0.5rem 0.5rem;
-}
-
-
+/* #region COL */
 .col-1 {
     width:  calc((100%/12)*1);
 }
@@ -86,6 +76,40 @@ header {
     width:  calc((100%/12)*6);
 }
 
+.col-7 {
+    width:  calc((100%/12)*7);
+}
+
+.col-8 {
+    width:  calc((100%/12)*8);
+}
+
+.col-9 {
+    width:  calc((100%/12)*9);
+}
+
+.col-10 {
+    width:  calc((100%/12)*10);
+}
+
+.col-11 {
+    width:  calc((100%/12)*11);
+}
+
+.col-12 {
+    width:  calc((100%/12)*12);
+}
+/* #endregion COL */
+
+/* header */
+header {
+    padding: 1rem;
+}
+
+[class^="col"] {
+    padding: 0.5rem 0.5rem;
+}
+
 .link{
     text-align: center;
 }
@@ -94,10 +118,12 @@ header {
     text-align: right;
 }
 
+/* main_banner */
 .banner {
     padding: 2rem;
 }
 
+/* main_blocks */
 .block {
     padding: 2rem;
 }
