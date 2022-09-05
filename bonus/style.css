@@ -1,0 +1,232 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* #region DEBUG  */
+.debug header{
+    background-color: lightblue;
+    height: 70px;
+}
+
+.debug .navbar {
+    background-color: orange;
+    border: 1px solid;
+}
+
+.debug .banner{
+    background-color: darkblue;
+}
+
+.debug .banner_content {
+    background-color: fuchsia;
+    height: 200px;
+    width: 500px;
+    margin: auto;
+    border: 1px solid;
+}
+
+.debug .grey, .debug .multimedia {
+    background-color: lightgray;
+}
+
+.debug .blue {
+    background-color: aqua;
+    height: 300px;
+    width: 500px;
+    border: 1px solid;
+}
+
+.debug .pink {
+    background-color: pink;
+    border: 1px solid;
+    width: 300px;
+}
+
+.debug .multimedia_content {
+    background-color: green;
+    height: 400px;
+    width: 800px;
+    margin: auto;
+    border: 1px solid;
+}
+
+.debug footer {
+    height: 550px;
+    background-color: rgb(30, 29, 29);
+}
+
+.debug .social {
+    background-color: lightcoral;
+    height: 400px;
+    width: 200px;
+    border: 1px solid;
+}
+
+.debug .info {
+    background-color: lightskyblue ;
+    border: 1px solid;
+    width: 150px;
+}
+
+.debug .key {
+    background-color: aquamarine;
+}
+
+/* #endregion DEBUG */
+
+/* #region COL */
+.col-1 {
+    width:  calc((100%/12)*1);
+}
+
+.col-2 {
+    width:  calc((100%/12)*2);
+}
+
+.col-3 {
+    width:  calc((100%/12)*3); 
+}
+
+.col-4 {
+    width:  calc((100%/12)*4);
+}
+
+.col-5 {
+    width:  calc((100%/12)*5);
+}
+
+.col-6 {
+    width:  calc((100%/12)*6);
+}
+
+.col-7 {
+    width:  calc((100%/12)*7);
+}
+
+.col-8 {
+    width:  calc((100%/12)*8);
+}
+
+.col-9 {
+    width:  calc((100%/12)*9);
+}
+
+.col-10 {
+    width:  calc((100%/12)*10);
+}
+
+.col-11 {
+    width:  calc((100%/12)*11);
+}
+
+.col-12 {
+    width:  calc((100%/12)*12);
+}
+/* #endregion COL */
+
+/* header */
+header {
+    padding: 1rem;
+}
+
+[class^="col"] {
+    padding: 0.5rem 0.5rem;
+}
+
+.logo {
+    z-index: 1;
+    
+}
+
+.link{
+    padding-top: 1rem;
+    text-align: center;
+    z-index: 1;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.login {
+    text-align: right;
+    z-index: 1;
+    padding-top: 1rem;
+
+}
+
+/* main_banner */
+
+.banner {
+    padding: 2rem;
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    position: relative;
+    top: -90px;
+    height: 400px;
+}
+
+/* main_blocks */
+.block {
+    padding: 2rem;
+}
+
+.description {
+    justify-content: center;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+/* main_multimedia */
+
+.multimedia {
+    padding: 2rem;
+}
+
+/* footer_widget */
+
+
+.widget {
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+hr {
+    margin-bottom: 2rem;
+}
+
+/* footer_buttons */
+.key {
+    justify-content: center;
+}
+
+.buttons {
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+
