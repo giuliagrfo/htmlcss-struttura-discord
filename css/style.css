@@ -29,6 +29,14 @@ header {
 .debug .row {
     background-color: orange;
 }
+
+
+.debug .banner_content {
+    background-color: pink;
+    height: 200px;
+    width: 500px;
+    
+}
 /* DEBUG */
 
 
@@ -74,9 +82,10 @@ header {
     text-align: right;
 }
 
-.debug .banner {
-    background-color: pink;
-    height: 200px;
+.banner {
     width: 50%;
+    height: 600px;
+    padding: 2rem;
     margin: auto;
 }
+
