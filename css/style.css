@@ -65,6 +65,7 @@
 
 .debug footer {
     height: 550px;
+    background-color: rgb(30, 29, 29);
 }
 
 .debug .social {
@@ -78,6 +79,10 @@
     background-color: lightskyblue ;
     border: 1px solid;
     width: 150px;
+}
+
+.debug .key {
+    background-color: aquamarine;
 }
 
 /* #endregion DEBUG */
@@ -174,9 +179,7 @@ header {
 }
 
 /* footer_widget */
-footer {
-    background-color: rgb(30, 29, 29);
-}
+
 
 .widget {
     justify-content: center;
@@ -191,7 +194,6 @@ hr {
 /* footer_buttons */
 .key {
     justify-content: center;
-    background-color: aquamarine;
 }
 
 .buttons {
