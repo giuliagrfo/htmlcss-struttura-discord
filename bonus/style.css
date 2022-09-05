@@ -8,7 +8,7 @@
 
 .container {
     width: 80%;
-    max-width: 800px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -146,6 +146,7 @@ img {
 /* header */
 header {
     padding: 1rem;
+    justify-content: space-around;
 }
 
 [class^="col"] {
@@ -154,13 +155,13 @@ header {
 
 .logo {
     z-index: 1;
-    
 }
 
 .link{
     padding-top: 1rem;
     text-align: center;
     z-index: 1;
+   
 }
 
 a {
@@ -174,6 +175,14 @@ a {
     z-index: 1;
     padding-top: 1rem;
 
+}
+
+.accedi {
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    border-radius: 15px;
+    padding: 0.5rem 0.8rem;
 }
 
 /* main_banner */
