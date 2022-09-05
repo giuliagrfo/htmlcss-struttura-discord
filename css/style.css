@@ -9,3 +9,13 @@
     max-width: 1000px;
     margin: auto;
 }
+
+.debug header, .debug footer {
+    background-color: red;
+    height: 100px;
+}
+
+.debug main {
+    background-color: blue;
+    height: 600px;
+}
