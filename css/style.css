@@ -6,7 +6,7 @@
 
 .container {
     width: 80%;
-    max-width: 1000px;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -14,6 +14,7 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 /* #region DEBUG  */
 .debug header{
     background-color: lightblue;
@@ -23,7 +24,6 @@
 .debug .navbar {
     background-color: orange;
     border: 1px solid;
-
 }
 
 .debug .banner{
@@ -36,7 +36,6 @@
     width: 500px;
     margin: auto;
     border: 1px solid;
-
 }
 
 .debug .grey, .debug .multimedia {
@@ -65,7 +64,7 @@
 }
 
 .debug footer {
-    height: 500px;
+    height: 550px;
 }
 
 .debug .social {
@@ -79,7 +78,6 @@
     background-color: lightskyblue ;
     border: 1px solid;
     width: 150px;
-
 }
 
 /* #endregion DEBUG */
@@ -175,14 +173,30 @@ header {
     padding: 2rem;
 }
 
+/* footer_widget */
 footer {
     background-color: rgb(30, 29, 29);
 }
 
 .widget {
     justify-content: center;
-    padding: 2rem 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
+hr {
+    margin-bottom: 2rem;
+}
+
+/* footer_buttons */
+.key {
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.buttons {
+    padding: 1rem;
+    justify-content: space-between;
+}
 
 
