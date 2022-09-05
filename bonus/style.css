@@ -196,6 +196,18 @@ a {
     height: 400px;
 }
 
+h1{
+    font-size: 30px;
+    padding-bottom: 2rem;
+}
+.banner_content {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: white;
+   
+}
+
 /* main_blocks */
 .block {
     padding: 2rem;
