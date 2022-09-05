@@ -18,24 +18,27 @@ header {
 .debug header{
     background-color: lightblue;
     height: 70px;
-    
 }
-
-.debug main {
-    background-color: darkblue;
-    height: 600px;
-}
-
-.debug .row {
-    background-color: orange;
-}
-
 
 .debug .banner_content {
     background-color: pink;
     height: 200px;
     width: 500px;
-    
+    margin: auto;
+}
+
+.debug .navbar {
+    background-color: orange;
+}
+
+.debug .blue {
+    background-color: aqua;
+    height: 250px;
+    width: 400px;
+}
+
+.debug .pink {
+    background-color: pink;
 }
 /* DEBUG */
 
@@ -82,10 +85,7 @@ header {
     text-align: right;
 }
 
-.banner {
-    width: 50%;
-    height: 600px;
+.banner{
     padding: 2rem;
-    margin: auto;
+    background-color: darkblue;
 }
-
