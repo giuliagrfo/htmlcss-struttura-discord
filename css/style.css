@@ -20,34 +20,68 @@
     height: 70px;
 }
 
-.debug .banner_content {
-    background-color: pink;
-    height: 200px;
-    width: 500px;
-    margin: auto;
-}
-
 .debug .navbar {
     background-color: orange;
+    border: 1px solid;
+
 }
 
 .debug .banner{
     background-color: darkblue;
 }
 
+.debug .banner_content {
+    background-color: fuchsia;
+    height: 200px;
+    width: 500px;
+    margin: auto;
+    border: 1px solid;
+
+}
+
+.debug .grey, .debug .multimedia {
+    background-color: lightgray;
+}
+
 .debug .blue {
     background-color: aqua;
-    height: 250px;
-    width: 400px;
+    height: 300px;
+    width: 500px;
+    border: 1px solid;
 }
 
 .debug .pink {
     background-color: pink;
+    border: 1px solid;
+    width: 300px;
 }
 
-.debug .grey {
-    background-color: lightgrey;
+.debug .multimedia_content {
+    background-color: green;
+    height: 400px;
+    width: 800px;
+    margin: auto;
+    border: 1px solid;
 }
+
+.debug footer {
+    height: 500px;
+}
+
+.debug .social {
+    background-color: lightcoral;
+    height: 400px;
+    width: 200px;
+    border: 1px solid;
+}
+
+.debug .info {
+    background-color: lightskyblue ;
+    border: 1px solid;
+    width: 150px;
+
+}
+
 /* #endregion DEBUG */
 
 /* #region COL */
@@ -134,3 +168,21 @@ header {
 .reverse {
     flex-direction: row-reverse;
 }
+
+/* main_multimedia */
+
+.multimedia {
+    padding: 2rem;
+}
+
+footer {
+    background-color: rgb(30, 29, 29);
+}
+
+.widget {
+    justify-content: center;
+    padding: 2rem 2rem;
+}
+
+
+
